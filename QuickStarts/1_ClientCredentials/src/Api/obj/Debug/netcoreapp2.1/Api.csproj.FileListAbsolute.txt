@@ -1,0 +1,14 @@
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.deps.json
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.runtimeconfig.json
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.runtimeconfig.dev.json
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.dll
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.pdb
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.csprojAssemblyReference.cache
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.csproj.CoreCompileInputs.cache
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cache
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cs
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.AssemblyInfoInputs.cache
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.AssemblyInfo.cs
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.RazorTargetAssemblyInfo.cache
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.dll
+D:\lil\IdentityServer4.Samples\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.pdb
