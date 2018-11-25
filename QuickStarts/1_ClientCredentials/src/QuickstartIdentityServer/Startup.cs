@@ -19,6 +19,7 @@ namespace QuickstartIdentityServer
             // 使用内存存储的密钥，客户端和API资源来配置ids4。
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
+                .AddInMemoryIdentityResources(Config.GetIdentityResources())// 添加身份资源
                 .AddInMemoryApiResources(Config.GetApiResources()) // 添加api资源
                 .AddInMemoryClients(Config.GetClients()) // 添加客户端 
                 .AddTestUsers(Config.GetUsers()); //添加测试用户

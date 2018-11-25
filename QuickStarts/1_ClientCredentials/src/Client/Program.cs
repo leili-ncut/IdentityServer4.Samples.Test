@@ -32,7 +32,7 @@ namespace Client
             // 调用api 
             var client = new HttpClient();
             client.SetBearerToken(tokenResponse.AccessToken);
-            var response = await client.GetAsync("http://localhost:64100/identity");
+            var response = await client.GetAsync("http://localhost:5001/api/identity");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
@@ -56,7 +56,7 @@ namespace Client
             // 调用api 
             client = new HttpClient();
             client.SetBearerToken(tokenResponse.AccessToken);
-            response = await client.GetAsync("http://localhost:64100/identity");
+            response = await client.GetAsync("http://localhost:5001/api/identity");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
