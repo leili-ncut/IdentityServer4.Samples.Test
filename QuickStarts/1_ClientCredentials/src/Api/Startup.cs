@@ -49,6 +49,7 @@ namespace Api
                 app.UseDeveloperExceptionPage();
             }
 
+            //添加authentication中间件
             app.UseAuthentication();
             app.UseMvc();
         }

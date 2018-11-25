@@ -785,11 +785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\lil\\IdentityServer4.Samples\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
+      "projectUniqueName": "D:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "D:\\lil\\IdentityServer4.Samples\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
+      "projectPath": "D:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\ljy\\.nuget\\packages\\",
-      "outputPath": "D:\\lil\\IdentityServer4.Samples\\QuickStarts\\1_ClientCredentials\\src\\Client\\obj\\",
+      "outputPath": "D:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
