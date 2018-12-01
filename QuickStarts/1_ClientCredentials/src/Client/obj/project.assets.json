@@ -566,10 +566,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
+      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -779,32 +780,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ljy\\.nuget\\packages\\": {},
+    "C:\\Users\\lil-as\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
+      "projectUniqueName": "G:\\lil\\identityserver\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "D:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\ljy\\.nuget\\packages\\",
-      "outputPath": "D:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\obj\\",
+      "projectPath": "G:\\lil\\identityserver\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\lil-as\\.nuget\\packages\\",
+      "outputPath": "G:\\lil\\identityserver\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ljy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        "C:\\Users\\lil-as\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
