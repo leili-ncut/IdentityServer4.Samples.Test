@@ -66,6 +66,9 @@ namespace Client
                 var content = await response.Content.ReadAsStringAsync();
                 Console.WriteLine(JArray.Parse(content));
             }
+            //3. 
         }
+
+
     }
 }

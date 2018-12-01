@@ -47,18 +47,37 @@ namespace OpenIdMvc
                 //添加cookie的处理程序
                 .AddCookie()
                 //配置执行openid connection协议的处理程序
+                //.AddOpenIdConnect("oidc", options =>
+                //{
+                //    //用于在OpenID Connect协议完成后使用cookie处理程序发出cookie
+                //    options.SignInScheme = "Cookies";
+                //    //identity server 4 的服务地址
+                //    options.Authority = "http://localhost:5000";
+                //    options.RequireHttpsMetadata = false;
+                //    //通过clientid识别客户端
+                //    options.ClientId = "mvc";
+                //    //用于在Cookie中保存IdentityServer中的令牌
+                //    options.SaveTokens = true;
+
+                //})
+
+                // 使用Hybrid Flow并添加API访问控制
                 .AddOpenIdConnect("oidc", options =>
                 {
-                    //用于在OpenID Connect协议完成后使用cookie处理程序发出cookie
                     options.SignInScheme = "Cookies";
-                    //identity server 4 的服务地址
+
                     options.Authority = "http://localhost:5000";
                     options.RequireHttpsMetadata = false;
-                    //通过clientid识别客户端
-                    options.ClientId = "mvc";
-                    //用于在Cookie中保存IdentityServer中的令牌
-                    options.SaveTokens = true;
 
+                    options.ClientId = "mvc";
+                    options.ClientSecret = "secret";
+                    options.ResponseType = "code id_token";
+
+                    options.SaveTokens = true;
+                    options.GetClaimsFromUserInfoEndpoint = true;
+
+                    options.Scope.Add("api1");
+                    options.Scope.Add("offline_access");
                 });
 
         }
