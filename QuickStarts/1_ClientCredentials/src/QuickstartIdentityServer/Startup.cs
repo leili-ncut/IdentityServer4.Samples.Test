@@ -16,6 +16,8 @@ namespace QuickstartIdentityServer
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            // 
+            services.AddMvc();
             // 使用内存存储的密钥，客户端和API资源来配置ids4。
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
@@ -42,6 +44,8 @@ namespace QuickstartIdentityServer
             app.UseDeveloperExceptionPage();
 
             app.UseIdentityServer();
+
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
