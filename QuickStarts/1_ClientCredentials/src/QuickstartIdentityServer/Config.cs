@@ -65,19 +65,45 @@ namespace QuickstartIdentityServer
                 //        IdentityServerConstants.StandardScopes.Profile
                 //    }
                 //}
-                // OpenID Connect hybrid flow and client credentials client (MVC)
+
+                //// OpenID Connect hybrid flow and client credentials client (MVC)
+                //new Client
+                //{
+                //    ClientId = "mvc",
+                //    ClientName = "MVC Client",
+                //    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
+
+                //    ClientSecrets =
+                //    {
+                //        new Secret("secret".Sha256())
+                //    },
+
+                //    RedirectUris = { "http://localhost:5002/signin-oidc" },
+                //    PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
+
+                //    AllowedScopes =
+                //    {
+                //        IdentityServerConstants.StandardScopes.OpenId,
+                //        IdentityServerConstants.StandardScopes.Profile,
+                //        "api1"
+                //    },
+                //    AllowOfflineAccess = true
+                //},
+
                 new Client
                 {
                     ClientId = "mvc",
                     ClientName = "MVC Client",
                     AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
 
+                    RequireConsent = false,
+
                     ClientSecrets =
                     {
                         new Secret("secret".Sha256())
                     },
 
-                    RedirectUris = { "http://localhost:5002/signin-oidc" },
+                    RedirectUris           = { "http://localhost:5002/signin-oidc" },
                     PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
 
                     AllowedScopes =

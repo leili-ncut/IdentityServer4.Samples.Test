@@ -50,6 +50,7 @@ G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentia
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Home\LogOut.g.cshtml.cs
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Home\Secure.g.cshtml.cs
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
@@ -64,4 +65,3 @@ G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentia
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\OpenIdMvc.dll
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\OpenIdMvc.pdb
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\OpenIdMvc.csproj.CopyComplete
-G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\OpenIdMvc\obj\Debug\netcoreapp2.1\Razor\Views\Home\LogOut.g.cshtml.cs
