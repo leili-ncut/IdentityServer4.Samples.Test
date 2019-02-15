@@ -15,9 +15,9 @@ namespace OpenIdMvc.Controllers
     public class HomeController : Controller
     {
         private readonly IHttpClientFactory _httpClient;
-        private readonly GitHubClient _gitHubClient;
+        private readonly IGitHubClient _gitHubClient;
 
-        public HomeController(IHttpClientFactory httpClient,GitHubClient gitHubClient)
+        public HomeController(IHttpClientFactory httpClient,IGitHubClient gitHubClient)
         {
             this._httpClient = httpClient;
             this._gitHubClient = gitHubClient;
@@ -104,7 +104,7 @@ namespace OpenIdMvc.Controllers
             //2.通过http-client名字创建，名字在startup中指定
             client = _httpClient.CreateClient("github");
             //3.使用自定义的HttpClient类
-            _gitHubClient.Client.GetAsync("");
+            _gitHubClient.GetData();
 
             client.BaseAddress = new Uri("");
             client.PostAsync("/",new StringContent("",Encoding.UTF8, "application/json"));

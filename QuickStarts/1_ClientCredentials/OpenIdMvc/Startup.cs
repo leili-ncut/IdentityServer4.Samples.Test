@@ -90,7 +90,7 @@ namespace OpenIdMvc
                 // ...
             });
             //3.使用自定义的HttpClient类
-            services.AddHttpClient<GitHubClient>();
+            services.AddHttpClient<IGitHubClient,GitHubClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
