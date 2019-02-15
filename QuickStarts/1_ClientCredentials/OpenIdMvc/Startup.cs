@@ -80,6 +80,17 @@ namespace OpenIdMvc
                     options.Scope.Add("offline_access");
                 });
 
+            //1. 
+            services.AddHttpClient();
+            //2. 指定HttpClient名字
+            services.AddHttpClient("github", client =>
+            {
+                client.BaseAddress = new Uri("https://api.github.com/");
+                client.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
+                // ...
+            });
+            //3.使用自定义的HttpClient类
+            services.AddHttpClient<GitHubClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

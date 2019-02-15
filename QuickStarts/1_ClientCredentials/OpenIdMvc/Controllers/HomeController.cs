@@ -1,4 +1,5 @@
-﻿using IdentityModel.Client;
+﻿using System;
+using IdentityModel.Client;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -6,12 +7,22 @@ using Newtonsoft.Json.Linq;
 using OpenIdMvc.Models;
 using System.Diagnostics;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace OpenIdMvc.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IHttpClientFactory _httpClient;
+        private readonly GitHubClient _gitHubClient;
+
+        public HomeController(IHttpClientFactory httpClient,GitHubClient gitHubClient)
+        {
+            this._httpClient = httpClient;
+            this._gitHubClient = gitHubClient;
+        }
+
         public IActionResult Index()
         {            
             return View();
@@ -80,6 +91,24 @@ namespace OpenIdMvc.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        /// <summary>
+        /// HttpClientFactory使用
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult HttpClientFactoryGet()
+        {
+            //1.默认使用
+            var client = _httpClient.CreateClient();
+            //2.通过http-client名字创建，名字在startup中指定
+            client = _httpClient.CreateClient("github");
+            //3.使用自定义的HttpClient类
+            _gitHubClient.Client.GetAsync("");
+
+            client.BaseAddress = new Uri("");
+            client.PostAsync("/",new StringContent("",Encoding.UTF8, "application/json"));
+            return Ok();
         }
     }
 }

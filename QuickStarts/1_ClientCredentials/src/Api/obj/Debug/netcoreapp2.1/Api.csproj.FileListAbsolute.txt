@@ -40,3 +40,17 @@ G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentia
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.RazorTargetAssemblyInfo.cache
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.dll
 G:\lil\identityserver\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.pdb
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.deps.json
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.runtimeconfig.json
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.runtimeconfig.dev.json
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.dll
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\bin\Debug\netcoreapp2.1\Api.pdb
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.csprojAssemblyReference.cache
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.csproj.CoreCompileInputs.cache
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cache
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cs
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.AssemblyInfoInputs.cache
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.AssemblyInfo.cs
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.RazorTargetAssemblyInfo.cache
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.dll
+G:\lil\IdentityServer4.Samples.Test\QuickStarts\1_ClientCredentials\src\Api\obj\Debug\netcoreapp2.1\Api.pdb

@@ -243,10 +243,11 @@
   },
   "libraries": {
     "IdentityModel/3.10.0": {
-      "sha512": "QmHcnV1saSJ7pp5Xpd5swe6dn4vB3YEYI9e1p1mj2YEkpz7BbJvIFaF6CdbdxX8sJ5gTFPy6BOQaY9qsQeNBsw==",
+      "sha512": "PJ8F5HOauI52OhiJZ7E46/AyNmqKMOWGmruHx6Ajv2evNFB/9P+MknY72zr8V5cjnwbVPDHNUS3IUUSG/l3/kA==",
       "type": "package",
       "path": "identitymodel/3.10.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "identitymodel.3.10.0.nupkg.sha512",
         "identitymodel.nuspec",
@@ -726,10 +727,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.1": {
-      "sha512": "wrf5LBX1omJ/8HiYKby22uBV7MPCfwxXWY39w28VZJjYdN1Cb3eiTkkWk5gAkkdW+N/A0hgSmqtiPoAwsb07qg==",
+      "sha512": "pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
       "type": "package",
       "path": "newtonsoft.json/11.0.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -786,11 +788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\lil\\identityserver\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
+      "projectUniqueName": "G:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "G:\\lil\\identityserver\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
+      "projectPath": "G:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\lil-as\\.nuget\\packages\\",
-      "outputPath": "G:\\lil\\identityserver\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\obj\\",
+      "outputPath": "G:\\lil\\IdentityServer4.Samples.Test\\QuickStarts\\1_ClientCredentials\\src\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -804,6 +806,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://47.94.110.149:8080": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
